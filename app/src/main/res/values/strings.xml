@@ -11,4 +11,20 @@
     <string name="view_showtimes">View Showtimes</string>
     <string name="view_showtimess">View showtimes</string>
     <string name="todo">TODO</string>
+    <string name="browse_the_categories">browse_the_categories</string>
+    <string name="broswe_the_showtime">BROSWE THE SHOWTIME</string>
+    <string name="events_cinemas_parramatta">EVENTS CINEMAS : Parramatta</string>
+    <string name="reading_cinemas_auburn">READING CINEMAS : Auburn</string>
+    <string name="_11_30_am">11:30 AM</string>
+    <string name="_8_30_am">8:30 AM</string>
+    <string name="_3_00_pm">3:00 PM</string>
+    <string name="hyotts_penrith">HYOTTS : PENRITH</string>
+    <string name="_1_30_pm">1:30 PM</string>
+    <string name="_5_30_pm">5:30 PM</string>
+    <string name="return">RETURN</string>
+    <string name="_2_00_pm">2:00 PM</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="_11_00_am">11:00 AM</string>
+    <string name="_7_30_pm">7:30 PM</string>
+    <string name="return_to_home">return to home</string>
 </resources>
