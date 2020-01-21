@@ -7,132 +7,112 @@
     android:contentDescription="@string/captain_marvel"
     tools:context=".MainActivity">
 
-
     <TextView
-        android:id="@+id/mainPageTitle"
+        android:id="@+id/textView"
         android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Email"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="@string/now_playing_at_the_cinemas"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/movie1image"
-        android:layout_width="149dp"
-        android:layout_height="145dp"
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/movie2image"
-        app:layout_constraintEnd_toStartOf="@+id/movie2image"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainPageTitle"
-        app:layout_constraintVertical_bias="0.411"
-        app:srcCompat="@drawable/captain_marvel"
-        android:contentDescription="@string/todo" />
-
-    <ImageView
-        android:id="@+id/movie2image"
-        android:layout_width="152dp"
-        android:layout_height="182dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:contentDescription="@string/harry_potter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainPageTitle"
-        app:srcCompat="@drawable/harry_potter" />
-
-    <Button
-        android:id="@+id/detailView1"
-        android:layout_width="0dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:text="@string/view_showtimes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/movie1image" />
-
-    <Button
-        android:id="@+id/detailView2"
-        android:layout_width="160dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:text="@string/view_showtimess"
-        app:layout_constraintBottom_toBottomOf="@+id/detailView1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/detailView1" />
-
-    <ImageView
-        android:id="@+id/movie3image"
-        android:layout_width="153dp"
-        android:layout_height="163dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        app:layout_constraintBottom_toBottomOf="@+id/movie4image"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailView1"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/dora"
-        android:contentDescription="@string/todo" />
-
-    <ImageView
-        android:id="@+id/movie4image"
-        android:layout_width="139dp"
-        android:layout_height="162dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
-        app:layout_constraintStart_toEndOf="@+id/movie3image"
-        app:layout_constraintTop_toBottomOf="@+id/movie2image"
-        app:srcCompat="@drawable/titanic"
-        android:contentDescription="@string/todo" />
-
-    <Button
-        android:id="@+id/detailView3"
-        android:layout_width="152dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:text="@string/view_showtimes"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/movie3image"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/detailView4"
-        android:layout_width="151dp"
-        android:layout_height="41dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="@string/view_showtimes"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/detailView3"
-        app:layout_constraintTop_toBottomOf="@+id/movie4image" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Password"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="96dp"
-        android:layout_height="48dp"
-        android:text="@string/view_all"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="@+id/signupButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signupButton" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/loginButton"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailView4"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Login"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

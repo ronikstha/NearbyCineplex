@@ -36,44 +36,36 @@
         android:id="@+id/cinema2"
         android:layout_width="340dp"
         android:layout_height="29dp"
+        android:layout_marginTop="32dp"
         android:text="@string/reading_cinemas_auburn"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintTop_toBottomOf="@+id/timeB" />
 
     <TextView
         android:id="@+id/cinema4"
         android:layout_width="340dp"
         android:layout_height="29dp"
+        android:layout_marginTop="40dp"
         android:text="@string/hyotts_penrith"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintTop_toBottomOf="@+id/timeE" />
 
     <Button
         android:id="@+id/timeB"
         android:layout_width="91dp"
         android:layout_height="42dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
         android:text="@string/_11_30_am"
-        app:layout_constraintBottom_toTopOf="@+id/cinema2"
-        app:layout_constraintStart_toEndOf="@+id/timeA" />
-
-    <Button
-        android:id="@+id/timeA"
-        android:layout_width="77dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginBottom="36dp"
-        android:text="@string/_8_30_am"
-        app:layout_constraintBottom_toTopOf="@+id/cinema2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/timeA"
+        app:layout_constraintTop_toBottomOf="@+id/cinema1" />
 
     <Button
         android:id="@+id/timeC"
@@ -81,12 +73,23 @@
         android:layout_height="40dp"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/_3_00_pm"
         app:layout_constraintBottom_toTopOf="@+id/cinema2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toEndOf="@+id/timeB" />
+
+    <Button
+        android:id="@+id/timeA"
+        android:layout_width="77dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/_8_30_am"
+        app:layout_constraintBottom_toTopOf="@+id/cinema2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/timeD"
@@ -104,13 +107,12 @@
         android:id="@+id/timeE"
         android:layout_width="79dp"
         android:layout_height="38dp"
+        android:layout_marginTop="16dp"
         android:text="@string/_1_30_pm"
-        app:layout_constraintBottom_toTopOf="@+id/cinema4"
         app:layout_constraintEnd_toStartOf="@+id/timeF"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toEndOf="@+id/timeD"
-        app:layout_constraintTop_toBottomOf="@+id/cinema2"
-        app:layout_constraintVertical_bias="0.241" />
+        app:layout_constraintTop_toBottomOf="@+id/cinema2" />
 
     <Button
         android:id="@+id/timeF"
