@@ -4,4 +4,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:contentDescription="@string/captain_marvel"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/mainPageTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/now_playing_at_the_cinemas"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/movie1image"
+        android:layout_width="149dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/movie2image"
+        app:layout_constraintEnd_toStartOf="@+id/movie2image"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageTitle"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/captain_marvel"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/movie2image"
+        android:layout_width="152dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:contentDescription="@string/harry_potter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageTitle"
+        app:srcCompat="@drawable/harry_potter" />
+
+    <Button
+        android:id="@+id/detailView1"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:text="@string/view_showtimes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie1image" />
+
+    <Button
+        android:id="@+id/detailView2"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/view_showtimess"
+        app:layout_constraintBottom_toBottomOf="@+id/detailView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/detailView1" />
+
+    <ImageView
+        android:id="@+id/movie3image"
+        android:layout_width="153dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/movie4image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailView1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dora"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/movie4image"
+        android:layout_width="139dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toEndOf="@+id/movie3image"
+        app:layout_constraintTop_toBottomOf="@+id/movie2image"
+        app:srcCompat="@drawable/titanic"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/detailView3"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="@string/view_showtimes"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie3image"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/detailView4"
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/view_showtimes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/detailView3"
+        app:layout_constraintTop_toBottomOf="@+id/movie4image" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:text="@string/view_all"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailView4"
+        app:layout_constraintVertical_bias="0.703" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
