@@ -24,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMainActivity();
+                openLoginActivity();
             }
         });
 
@@ -32,18 +32,14 @@ public class RegisterActivity extends AppCompatActivity {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openHomeActivity();
+                openLoginActivity();
             }
         });
     }
 
-    private void openHomeActivity() {
-        Intent intent = new Intent(this, HomeActivity.class);
+    private void openLoginActivity() {
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 
-    private void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
 }

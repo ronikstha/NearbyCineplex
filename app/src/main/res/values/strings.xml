@@ -2,15 +2,11 @@
     <string name="app_name">Nearby Cineplex</string>
     <string name="view_all">VIEW ALL</string>
     <string name="view_showtimes">View Showtimes</string>
-    <string name="view_showtimes">View Showtimes</string>
-    <string name="todo">TODO</string>
     <string name="todo">TODO</string>
     <string name="harry_potter">harry potter</string>
     <string name="captain_marvel">captain marvel</string>
     <string name="now_playing_at_the_cinemas">Now Playing at the Cinemas</string>
-    <string name="view_showtimes">View Showtimes</string>
     <string name="view_showtimess">View showtimes</string>
-    <string name="todo">TODO</string>
     <string name="browse_the_categories">browse_the_categories</string>
     <string name="broswe_the_showtime">BROSWE THE SHOWTIME</string>
     <string name="events_cinemas_parramatta">EVENTS CINEMAS : Parramatta</string>
@@ -21,7 +17,7 @@
     <string name="hyotts_penrith">HYOTTS : PENRITH</string>
     <string name="_1_30_pm">1:30 PM</string>
     <string name="_5_30_pm">5:30 PM</string>
-    <string name="return">RETURN</string>
+    <!--    <string name="return">RETURN</string>-->
     <string name="_2_00_pm">2:00 PM</string>
     <string name="_10_00_am">10:00 AM</string>
     <string name="_11_00_am">11:00 AM</string>
