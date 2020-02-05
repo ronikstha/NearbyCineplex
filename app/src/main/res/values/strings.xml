@@ -23,4 +23,11 @@
     <string name="_11_00_am">11:00 AM</string>
     <string name="_7_30_pm">7:30 PM</string>
     <string name="return_to_home">return to home</string>
+    <string name="not_a_member_yet_click_here_to_sign_up">Not a member yet? Click Here to Sign Up</string>
+    <string name="login">Login</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="email">Email</string>
 </resources>
